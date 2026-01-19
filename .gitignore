@@ -1,6 +1,7 @@
 # Gradle files
 .gradle/
 build/
+*/build/
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -32,3 +33,10 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Placeholder icons (should be replaced with actual images)
+app/src/main/res/mipmap-*/ic_launcher*.png
